@@ -1,5 +1,6 @@
 module LibreSSL [system] {
     header "headers.h"
+    link "tls"
     link "crypto"
     link "tls"
     export *
